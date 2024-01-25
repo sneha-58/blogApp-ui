@@ -1,0 +1,131 @@
+/* dashboard.css */
+.dashboard {
+    padding: 80px;
+    padding-left:180px;
+    /* background-color:red; */
+  }
+
+  .categoryPosts-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  /* .containerdashboard{
+    background-color:lightgray;
+  } */
+  
+  .dashboard-post {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* transition: transform 0.2s ease-in-out; */
+    width: 100%;
+    max-width: 300px;
+    background-color:lightgray;
+
+  }
+  
+  .dashboard-post-info {
+    padding: 15px;
+  }
+  
+  .dashboard-post-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .dashboard-posts-action {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:20px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 8px 16px;
+    margin: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    height:19px;
+    width:60px;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    height:35px;
+    border:none;
+    text-align:center;
+  }
+  
+  .btn-primary:hover{
+    transform: scale(1.05);
+  }
+  
+  .btn-secondary {
+    background-color: #6c757d;
+    color: #fff;
+    height:35px;
+    width:70px;
+    border:none;
+  }
+  .btn-secondary:hover{
+    transform: scale(1.05);
+    background-color:#565e64;
+  }
+  
+  .btn-danger {
+    background-color: #dc3545;
+    color: #fff;
+    height:35px;
+    width:70px;
+    border:none;
+
+  }
+  .btn-danger:hover{
+    transform: scale(1.05);
+    background-color: #be2c3b;
+  }
+  
+  .empty-state {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .subtext {
+    color: #6c757d;
+  }
+  
+  .fav-button{
+    background-color: rgb(163, 154, 163);
+    border:solid;
+    margin-left:100px;
+    border: none;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    height:50px;
+    width:80px;
+    cursor: pointer;
+  }
+  .fav-button:hover{
+    background-color:rgb(131, 118, 118)
+    ;
+  }
+  .favorited {
+    background-color: rgb(179, 26, 26);
+  }
+   .fav-button.favorited1{
+    color: rgb(228, 37, 37); 
+  }
+  .fav-button.favorited1:hover{
+    color:rgb(189, 23, 23);
+  }  

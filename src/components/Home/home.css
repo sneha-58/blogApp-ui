@@ -1,0 +1,26 @@
+.overlay-buttons {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding-top:20px;
+    text-decoration:none;
+  }
+  
+  .overlay-button {
+    margin: 1.9rem;
+    padding: 1.5rem 1.9rem 1.5rem 1.9rem;
+    background-color: #06213e;
+    color: #faf4f4;
+    border: none;
+    border-radius: 60px;
+    cursor: pointer;
+    font-size:20px;
+    text-decoration:none;
+  }
+  .overlay-button:hover {
+    background-color: #042852;
+    color: #faf4f4;
+    transform:scale(1.08);
+  }

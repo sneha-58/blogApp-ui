@@ -1,0 +1,225 @@
+.post{
+    border:1px solid gray;
+    border-radius:10px;
+    overflow:hidden;
+    cursor:pointer;
+    transition: transform 0.6s ease-in-out;
+    background-color:lightgray;
+    width:300px;
+    padding:15px;
+    margin-top:5px;
+    margin-left:0.5px;
+    height:480px;
+    display:row;
+    text-decoration: none;
+
+}
+.post:hover{
+    transform:scale(1.08);
+}
+.post-image{
+    width:300px;
+    height:200px;
+    text-align:center;
+}
+.post-title{
+    padding:0px 8px;
+    text-decoration:none;
+}
+.posts-container{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:2rem;
+    margin-bottom:20px;
+
+}
+.post-content{
+    margin-top:0.5rem;
+    text-decoration: none;
+}
+.post-content h3{
+    color:rgb(49, 1, 24);
+    text-decoration:none;
+}
+.post-content button{
+    width:100px;
+    height:30px;
+}
+
+.templateContainer{
+    margin-top:50px;
+    margin-left:80px;
+    gap:10px;
+}
+.searchInput_Container{
+    align-items:center;
+    text-align:center;
+    margin-bottom:50px;
+}
+.searchInput{
+    height:30px;
+    width:300px;
+    border-radius:30px;
+    padding:7px;
+}
+.template_Container{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:1px;
+}
+  .post-author{
+    display:flex;
+    gap:0.5rem;
+    align-items:flex-start;
+    text-decoration:none;
+    color:rgb(49, 1, 24);
+  }
+  .post-author-image{
+    width:2.6rem;
+    border-radius:50%;
+    aspect-ratio:1/1;
+    overflow:hidden;
+    border: 3px none;
+    margin-top:30px;
+
+  }
+  .post-author-info{
+    text-decoration:none;
+    padding-bottom:1px;
+    margin-top:10px;
+    gap:1px;
+  } 
+  .readMoreButton{
+    background-color: rgb(109, 77, 77);
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  .readMoreButton:hover{
+  background-color: rgb(156, 147, 147);
+  color: rgb(109, 77, 77);
+  }
+  /* Comments */
+  .comment-section {
+    margin-top: 30px;
+    margin-left:200px;
+  }
+  .comment {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width:75%;
+  }
+  .commentcontent{
+    padding-left:50px;
+  }
+  .commentauthor{
+    padding-left:10px;
+  }
+  .userimg{
+    width:1.5rem;
+    height:1.3rem;
+    border-radius:50%;
+    aspect-ratio:1/1;
+    overflow:hidden;
+    border: 3px;
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 5px;
+    margin-left:200px;
+    margin-top:70px;
+  }
+  
+  form input, form textarea {
+    width: 90%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    height:180px;
+  }
+  
+  .submitcomment {
+    background-color: #06213e;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left:200px;
+    width: 90px;
+    height: 40px;
+    font-size: 16px;
+  }
+  
+  .submitcomment:hover {
+    background-color: #45a049;
+  }
+
+  /* Like Dislike */
+.fav-button1{
+  background-color: rgb(133, 17, 17);
+  color: white;
+  margin-left:100px;
+  border: none;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  height:40px;
+  cursor: pointer;
+}
+.fav-button1:hover{
+  background-color: rgb(156, 147, 147);
+  color: rgb(179, 26, 26);
+}
+.favorited {
+  background-color: rgb(179, 26, 26);
+}
+.fav-button.favorited, .fav-button1.favorited{
+  color: rgb(207, 202, 202); 
+}
+.fav-button1.favorited:hover{
+  color:rgb(189, 23, 23);
+}
+
+/* Edit */
+.edit-post-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.edit-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.edit-label {
+  margin-bottom: 10px;
+}
+
+.edit-input {
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.edit-button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+}

@@ -1,0 +1,112 @@
+.container{
+    display:flex;
+    flex-direction:column;
+    margin: auto;
+    margin-top: 150px;
+    width:700px;
+    background: white;
+    padding-bottom:20px;
+    border-radius:60px;
+    background: linear-gradient(rgb(228, 163, 228),rgb(41, 163, 220))
+}
+.header{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    margin-top: 30px;
+}
+.heading{
+    text-align:center;
+    align-items:center;
+}
+.text{
+    color:black;
+    font-size: 48px;
+    font-weight: 560;
+}
+/* .underline{
+    width:35px;
+    height:6px;
+    background:rgb(120, 7, 120);
+    border-radius: 15px;
+} */
+.inputs{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.input{
+    display: flex;
+    align-items: center;
+    margin:auto;
+    width: 480px;
+    height:70px;
+    background: lightgray;
+    border-radius:10px;
+}
+.input img{
+    margin: 0px 30px;
+}
+.input input{
+    height:50px;
+    width:400px;
+    background:transparent;
+    border:none;
+    outline:none;
+    color:rgb(38, 64, 64);
+    font-size:20px;
+    background: lightgray;
+}
+.forgot-password{
+    padding-left: 62px;
+    margin-top:27px;
+    color:rgb(117, 116, 116);
+    font-size:18px;
+}
+.forgot-password span{
+    color: rgb(36, 35, 35);
+    cursor:pointer;
+}
+.submit-container{
+    gap:70px;
+    margin:50px auto;
+}
+.submit-container p{
+    margin-bottom:20px;
+    margin-top:35px;
+
+}
+.submit{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:150px;
+    height:45px;
+    color:white;
+    background: #0b2d55;
+    border-radius:50px;
+    font-size:22px;
+    font-weight:600px;
+    cursor:pointer;
+    text-decoration: none;
+}
+button{
+    justify-content:center;
+    align-items:center;
+    width:150px;
+    height:45px;
+    color:white;
+    background: #0b2d55;
+    border-radius:50px;
+    font-size:22px;
+    font-weight:600px;
+    text-decoration: none;
+    border:none;
+}
+/* .gray{
+    background:#EAEAEA;
+    color:#676767;
+} */
